@@ -1,13 +1,29 @@
 #include "main.h"
 
 /**
- * add - Adds two integers.
- * @num1: The first integer to be added.
- * @num2: The second integer to be added.
+ *print_sign - print sign of number
+ * @n: number to check
  *
- * Return: The result of the addition.
+ * Return: 1 if positive, 0 if zero, -1 if negative
  */
-int add(int num1, int num2)
+
+int print_sign(int n)
 {
-	return (num1 + num2);
+if (n > 0)
+{
+_putchar('+');
+return (1);
 }
+
+else if (n == 0)
+{
+_putchar('0');
+return (0);
+}
+
+else
+{
+_putchar('-');
+return (-1);
+}
+} 
