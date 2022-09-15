@@ -17,22 +17,18 @@ printf("%li, ", b);
 while (n < 50)
 {
 long fib = a + b;
-
 printf("%li, ", fib);
 a = b;
 b = fib;
 n++;
 }
-
 while (n == 50)
 {
 long fib = a + b;
-
 printf("%li\n", fib);
 a = b;
 b = fib;
 n++;
 }
-
 return (0);
 } 
