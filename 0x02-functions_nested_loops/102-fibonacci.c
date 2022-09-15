@@ -2,7 +2,6 @@
 
 /**
 * main - entry point in c
-*
 * Return: 0 if successful
 */
 
