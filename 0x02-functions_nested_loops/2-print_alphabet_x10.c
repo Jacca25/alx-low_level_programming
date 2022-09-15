@@ -1,10 +1,10 @@
-#include "main.h"
+#nclude "main.h"
 
 /**
- * print_alphabet_x10 - print the alphabet in lowercase.
- * followed by a new line
- * Return: 0 (success)
- */
+* print_alphabet_x10 - print the alphabet in lowercase.
+* followed by a new line
+* Return: 0 (success)
+*/
 
 void print_alphabet_x10(void)
 {
@@ -21,4 +21,5 @@ letter++;
 _putchar('\n');
 letter = 'a';
 number++;
-} 
+}
+}
