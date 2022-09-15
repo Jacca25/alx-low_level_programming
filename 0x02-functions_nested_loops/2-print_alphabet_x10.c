@@ -1,25 +1,28 @@
-#nclude "main.h"
+#include "main.h"
 
 /**
-* print_alphabet_x10 - print the alphabet in lowercase.
-* followed by a new line
-* Return: 0 (success)
-*/
+ *print_sign-prints sign of a number
+ *@n: character to be verified
+ *Return: return 0 or 1
+ */
+int print_sign(int n)
+{
+if (n == 0)
+{
+_putchar('0');
 
-void print_alphabet_x10(void)
-{
-char letter = 'a';
-int number = 1;
-
-while (number < 11)
-{
-while (letter <= 'z')
-{
-_putchar(letter);
-letter++;
+return (0);
 }
-_putchar('\n');
-letter = 'a';
-number++;
+else if (n > 0)
+{
+_putchar('+');
+
+return (1);
+}
+else
+{
+_putchar('-');
+
+return (-1);
 }
 }
