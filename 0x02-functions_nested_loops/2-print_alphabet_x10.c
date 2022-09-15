@@ -21,5 +21,4 @@ letter++;
 _putchar('\n');
 letter = 'a';
 number++;
-}
 } 
