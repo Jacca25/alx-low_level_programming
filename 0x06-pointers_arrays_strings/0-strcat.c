@@ -1,5 +1,3 @@
-You're running out of storage (99%). … Soon you won't be able to upload new files to Drive and send or receive emails in Gmail.Learn more
-
 #include "main.h"
 
 /**
